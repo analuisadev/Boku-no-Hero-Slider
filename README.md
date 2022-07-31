@@ -1,4 +1,4 @@
-# Pokemon-Slider
+# Pokémon Slider
 
 * Creation of a slider/card style application, where it is introduced some Pokemon characters.
 
