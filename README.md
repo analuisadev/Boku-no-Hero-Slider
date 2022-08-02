@@ -1,16 +1,16 @@
-# Pokémon Slider
+# Boku no Hero Slider
 
 * Creation of a slider/card style application, where it is introduced some Pokemon characters.
 
 
 > Desktop Version 🖥️
 
-![Screenshot_14](https://user-images.githubusercontent.com/71856519/182031563-cf457f1f-0a57-4511-ab1d-cd8ce9e690ab.png)
+![Screenshot_17](https://user-images.githubusercontent.com/71856519/182432450-21cc192f-06c9-440d-baaf-fe4d948e7f13.png)
 
 
 > Mobile Version 📱
 
-![Screenshot_15](https://user-images.githubusercontent.com/71856519/182031598-83b8f114-7c86-452e-9d8a-fa621b4f1664.png)
+![Screenshot_18](https://user-images.githubusercontent.com/71856519/182432598-c352fff1-4b10-4c5d-b1f7-7eaf2179eb80.png)
 
 > Note 📝
  ## In this project was used:
