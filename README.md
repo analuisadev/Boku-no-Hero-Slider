@@ -1,6 +1,6 @@
 # Boku no Hero Slider
 
-* Creation of a slider/card style application, where it is introduced some Pokemon characters.
+* Creation of a slider/card style application, where it is introduced some boku no hero characters.
 
 
 > Desktop Version 🖥️
