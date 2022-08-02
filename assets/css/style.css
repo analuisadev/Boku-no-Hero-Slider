@@ -10,7 +10,7 @@
 /* line 16, ../MAPA DEV WEEK/assets/sass/style.scss */
 body {
   font-family: 'Outfit', sans-serif;
-  background-image: url(../img/fundo-site.png);
+  background-image: url(../img/bg-boku-no-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -30,14 +30,14 @@ body {
   color: #f1ecff;
 }
 
-/* line 35, ../MAPA DEV WEEK/assets/sass/style.scss */
-.header .header__pokebolaImg {
-  width: 25px;
-  height: 25px;
+/* line 36, ../MAPA DEV WEEK/assets/sass/style.scss */
+.header .header__BokuNoHeroLogo {
+  width: 150px;
+  height: 90px;
 }
 
-/* line 41, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemon-slider {
+/* line 42, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKH-slider {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,8 +45,8 @@ body {
   margin: 60px 0;
 }
 
-/* line 49, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemon-slider .pokemon-slider__btn {
+/* line 50, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKH-slider .BKH-slider__btn {
   background-color: #f1ecff;
   width: 70px;
   height: 70px;
@@ -57,25 +57,25 @@ body {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-/* line 60, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemon-slider .pokemon-slider__btn.btn__back {
+/* line 61, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKH-slider .BKH-slider__btn.btn__back {
   transform: rotateY(180deg);
 }
 
-/* line 64, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemon-slider .pokemon-slider__btn:hover {
+/* line 65, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKH-slider .BKH-slider__btn:hover {
   background-color: #8351FE;
 }
 
-/* line 72, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemonList {
+/* line 73, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList {
   width: 310px;
   height: 520px;
   position: relative;
 }
 
-/* line 77, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemonList .pokemonList__card {
+/* line 78, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card {
   opacity: 0;
   height: 100%;
   display: flex;
@@ -89,31 +89,50 @@ body {
   transition: opacity .3s ease-in-out;
 }
 
-/* line 92, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemonList .pokemonList__card.card__select {
+/* line 93, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__select {
   opacity: 1;
   z-index: 1;
 }
 
-/* line 97, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemonList .pokemonList__card.card__bg1 {
-  background-image: url(../img/fundo-card-1.jpg);
+/* line 98, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__bg1, .BKHList .card__bg2, .BKHList .card__bg3, .BKHList .card__bg4, .BKHList .card__bg5, .BKHList .card__bg6 {
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
 /* line 103, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemonList .pokemonList__card.card__bg2 {
-  background-image: url(../img/fundo-card-2.jpg);
-  background-repeat: no-repeat;
+.BKHList .BKHList__card.card__bg1 {
+  background-image: url(../img/midoriya-bg.jpg);
 }
 
-/* line 109, ../MAPA DEV WEEK/assets/sass/style.scss */
-.pokemonList .pokemonList__card.card__bg3 {
-  background-image: url(../img/fundo-card-3.jpg);
-  background-repeat: no-repeat;
+/* line 107, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__bg2 {
+  background-image: url(../img/Katsuki-Bakugo-bg.jpg);
 }
 
-/* line 117, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 111, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__bg3 {
+  background-image: url(../img/Shoto-Todoroki-bg.jpg);
+}
+
+/* line 115, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__bg4 {
+  background-image: url(../img/Tsuyu-Asui-bg.jpg);
+}
+
+/* line 119, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__bg5 {
+  background-image: url(../img/Ochaco-Uraraka-bg.jpg);
+}
+
+/* line 123, ../MAPA DEV WEEK/assets/sass/style.scss */
+.BKHList .BKHList__card.card__bg6 {
+  background-image: url(../img/All-Might-bg.jpg);
+}
+
+/* line 130, ../MAPA DEV WEEK/assets/sass/style.scss */
 .info {
   background-color: rgba(179, 177, 185, 0.7);
   display: flex;
@@ -122,13 +141,13 @@ body {
   padding: 8px 10px;
 }
 
-/* line 125, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 138, ../MAPA DEV WEEK/assets/sass/style.scss */
 .info .info__info.info__name {
   color: #f1ecff;
   font-size: 22px;
 }
 
-/* line 130, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 143, ../MAPA DEV WEEK/assets/sass/style.scss */
 .info .info__info.info__life {
   background-color: #333;
   color: #f1ecff;
@@ -136,26 +155,26 @@ body {
   border-radius: 20px;
 }
 
-/* line 138, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 151, ../MAPA DEV WEEK/assets/sass/style.scss */
 .containerImg {
   text-align: center;
 }
 
-/* line 141, ../MAPA DEV WEEK/assets/sass/style.scss */
-.containerImg .containerImg__pokemon-image {
+/* line 154, ../MAPA DEV WEEK/assets/sass/style.scss */
+.containerImg .containerImg__character-image {
   max-width: 100%;
   max-height: 280px;
   padding: 20px;
 }
 
-/* line 149, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 162, ../MAPA DEV WEEK/assets/sass/style.scss */
 .description {
   background-color: rgba(255, 255, 255, 0.8);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
-/* line 154, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 167, ../MAPA DEV WEEK/assets/sass/style.scss */
 .description .description__title {
   background-color: #333;
   color: #f1ecff;
@@ -163,7 +182,7 @@ body {
   padding: 12px;
 }
 
-/* line 161, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 174, ../MAPA DEV WEEK/assets/sass/style.scss */
 .description .description__text {
   font-size: 14px;
   padding: 12px;
@@ -172,19 +191,19 @@ body {
   overflow-y: auto;
 }
 
-/* line 172, ../MAPA DEV WEEK/assets/sass/style.scss */
+/* line 185, ../MAPA DEV WEEK/assets/sass/style.scss */
 ul {
   list-style: none;
 }
 
 @media (max-width: 620px) {
-  /* line 178, ../MAPA DEV WEEK/assets/sass/style.scss */
-  .pokemon-slider {
+  /* line 191, ../MAPA DEV WEEK/assets/sass/style.scss */
+  .BKH-slider {
     padding: 0 15px;
     gap: 10px;
   }
-  /* line 182, ../MAPA DEV WEEK/assets/sass/style.scss */
-  .pokemon-slider .pokemon-slider__btn {
+  /* line 195, ../MAPA DEV WEEK/assets/sass/style.scss */
+  .BKH-slider .BKH-slider__btn {
     width: 20px;
     height: 20px;
     padding: 20px;
@@ -192,20 +211,20 @@ ul {
     justify-content: center;
     align-items: center;
   }
-  /* line 191, ../MAPA DEV WEEK/assets/sass/style.scss */
-  .pokemon-slider .pokemonList__Card {
+  /* line 204, ../MAPA DEV WEEK/assets/sass/style.scss */
+  .BKH-slider .BKHList__Card {
     height: 480px;
   }
-  /* line 196, ../MAPA DEV WEEK/assets/sass/style.scss */
-  .pokemon-slider .containerImg .pokemon-slider .containerImg__pokemon-image {
+  /* line 209, ../MAPA DEV WEEK/assets/sass/style.scss */
+  .BKH-slider .containerImg .BKH-slider .containerImg__character-image {
     max-height: 230px;
   }
-  /* line 203, ../MAPA DEV WEEK/assets/sass/style.scss */
+  /* line 216, ../MAPA DEV WEEK/assets/sass/style.scss */
   .info .info__name {
     max-width: 50%;
     font-size: 18px;
   }
-  /* line 208, ../MAPA DEV WEEK/assets/sass/style.scss */
+  /* line 221, ../MAPA DEV WEEK/assets/sass/style.scss */
   .info .info__life {
     font-size: 14px;
   }

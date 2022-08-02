@@ -1,6 +1,6 @@
 const btnNext = document.getElementById('btn__next');
 const btnBack = document.getElementById('btn__back');
-const card = document.querySelectorAll('.pokemonList__card');
+const card = document.querySelectorAll('.BKHList__card');
 let ActualCard = 0;
 
 

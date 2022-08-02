@@ -15,7 +15,7 @@ $description: rgba(255, 255, 255, 0.8);
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-image: url(../img/fundo-site.png);
+    background-image: url(../img/bg-boku-no-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -30,15 +30,16 @@ body {
 
     & &__title {
         color: $white;
+        
     }
 
-    & &__pokebolaImg {
-        width: 25px;
-        height: 25px;
+    & &__BokuNoHeroLogo {
+        width: 150px;
+        height: 90px;
     }
 }
 
-.pokemon-slider {
+.BKH-slider {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +70,7 @@ body {
     
 }
 
-.pokemonList {
+.BKHList {
     width: 310px;
     height: 520px;
     position: relative;
@@ -94,23 +95,35 @@ body {
         z-index: 1;
     }
 
-    & &__card.card__bg1 {
-        background-image: url(../img/fundo-card-1.jpg);
+    & &__card.card__bg1, .card__bg2, .card__bg3, .card__bg4, .card__bg5, .card__bg6 {
+        background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
-        
+    }
+    & &__card.card__bg1 {
+        background-image: url(../img/midoriya-bg.jpg);       
     }
 
     & &__card.card__bg2 {
-        background-image: url(../img/fundo-card-2.jpg);
-        background-repeat: no-repeat;
-        
+        background-image: url(../img/Katsuki-Bakugo-bg.jpg);      
     }
 
     & &__card.card__bg3 {
-        background-image: url(../img/fundo-card-3.jpg);
-        background-repeat: no-repeat;
-        
+        background-image: url(../img/Shoto-Todoroki-bg.jpg);      
     }
+
+    & &__card.card__bg4 {
+        background-image: url(../img/Tsuyu-Asui-bg.jpg);
+    }
+
+    & &__card.card__bg5 {
+        background-image: url(../img/Ochaco-Uraraka-bg.jpg);
+    }
+
+    & &__card.card__bg6 {
+        background-image: url(../img/All-Might-bg.jpg);
+    }
+
 }
 
 
@@ -138,7 +151,7 @@ body {
 .containerImg {
     text-align: center;
 
-    & &__pokemon-image {
+    & &__character-image {
         max-width: 100%;
         max-height: 280px;
         padding: 20px;
@@ -175,7 +188,7 @@ ul {
 
 
 @media (max-width: 620px) {
-    .pokemon-slider {
+    .BKH-slider {
         padding: 0 15px;
         gap: 10px;
 
@@ -188,12 +201,12 @@ ul {
             align-items: center;
         }
 
-        .pokemonList__Card {
+        .BKHList__Card {
             height: 480px;
         }
 
         .containerImg {
-            & &__pokemon-image {
+            & &__character-image {
                 max-height: 230px;
             }
         }
